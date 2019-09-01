@@ -1,0 +1,11 @@
+.Services {
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+}
+
+.ServicesTable {
+    width: calc(100% - 135px);
+    position: absolute;
+    right: 0;
+}
