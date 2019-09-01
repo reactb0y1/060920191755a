@@ -9,8 +9,10 @@ class Manager extends Component {
                 <div className="ManagerRight">
                     <h5 className="ManagerName">Вероника Ростова</h5>
                     <p className="ManagerInfo">Менеджер по продажам</p>
-                    <p className="ManagerStatus">Подберу для Вас самые лучшие предлжения.
-                        Мои услуги абсолютно бесплатны</p>
+                    <div className="ManagerStatusContainer">
+                        <p className='ManagerStatus'>Подберу для Вас самые лучшие предложения.</p>
+                        <p className='ManagerStatus'>Мои услуги абсолютно бесплатны</p>
+                    </div>
                 </div>
             </div>
         );

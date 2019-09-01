@@ -6,7 +6,7 @@ import Services from "./Services/Services";
 class Profile extends Component {
     render() {
         return (
-            <div>
+            <div className='Profile'>
                 <Manager/>
                 <Services/>
             </div>

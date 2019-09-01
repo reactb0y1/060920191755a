@@ -1,0 +1,53 @@
+.Manager {
+    display: flex;
+    width: 90%;
+    height: 125px;
+}
+
+.ManagerPhoto {
+    min-width: 125px;
+    min-height: 125px;
+    display: block;
+    border-radius: 50%;
+    background-image: url(../../res/img/ManagerPhoto.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.ManagerRight {
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.ManagerName {
+    font-size: 18px;
+}
+
+.ManagerInfo {
+    font-size: 14px;
+    color: #808080;
+    margin-top: 5px;
+}
+
+.ManagerStatusContainer {
+    font-size: 14px;
+    color: #333333;
+    position: absolute;
+    background-color: #fffbc8;
+    border: 1px solid #cecabf;
+    border-radius: 5px;
+    bottom: 20px;
+    right: 0;
+    width: calc(100% + 40px);
+    padding: 8px 0;
+}
+
+.ManagerStatus {
+    padding-left: 40px;
+    line-height: 1.4;
+}
