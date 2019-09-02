@@ -7,7 +7,7 @@ class CommentsHead extends Component {
             <div className="CommentsHead">
 
                 <div className="reviews">
-                    <h3 className='reviewsLast'>Последние отзывы</h3>
+                    <h3 className='reviewsLast reviewsActive'>Последние отзывы</h3>
                     <h3 className='reviewsAll'>Все отзывы</h3>
                 </div>
 
