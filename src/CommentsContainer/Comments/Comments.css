@@ -3,6 +3,14 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.CommentsItem {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     margin-top: 20px;
 }
 
