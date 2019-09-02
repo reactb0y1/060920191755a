@@ -1,17 +1,17 @@
 import React, {Component} from 'react'
-import './Comment.css'
+import './Comments.css'
 
-class Comment extends Component {
+class Comments extends Component {
     render() {
         return (
-            <div className="Comment">
+            <div className="Comments">
 
-                <h5 className="CommentName">Самуил</h5>
+                <h5 className="CommentsName">Самуил</h5>
 
-                <span className="CommentDate">13 октября 2011</span>
+                <span className="CommentsDate">13 октября 2011</span>
 
-                <div className="CommentTextContainer">
-                    <p className="CommentText">
+                <div className="CommentsTextContainer">
+                    <p className="CommentsText">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -23,4 +23,4 @@ class Comment extends Component {
     }
 }
 
-export default Comment
+export default Comments

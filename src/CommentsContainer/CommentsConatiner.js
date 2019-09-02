@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './CommentsContainer.css'
-import Comment from './Comment/Comment'
+import Comment from './Comments/Comments'
 import CommentsHead from './CommentsHead/CommentsHead'
 import WriteComment from './WriteComment/WriteComment'
 

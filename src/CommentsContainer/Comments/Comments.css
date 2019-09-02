@@ -1,4 +1,4 @@
-.Comment {
+.Comments {
     width: 90%;
     display: flex;
     flex-wrap: wrap;
@@ -6,7 +6,7 @@
     margin-top: 20px;
 }
 
-.CommentTextContainer {
+.CommentsTextContainer {
     width: 100%;
     background: #f2fbff;
     padding: 20px 0;
@@ -15,18 +15,18 @@
     margin-top: 15px;
 }
 
-.CommentText {
+.CommentsText {
     width: calc(100% - 40px);
     margin-left: 20px;
 }
 
-.CommentName {
+.CommentsName {
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
 }
 
-.CommentDate {
+.CommentsDate {
     color: #c9c9c9;
     font-size: 12px;
     margin-left: 10px;
