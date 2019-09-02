@@ -7,7 +7,7 @@ import WriteComment from './WriteComment/WriteComment'
 class Comments extends Component {
     render() {
         return (
-            <div>
+            <div className='Comments'>
                 <CommentsHead/>
                 <Comment/>
                 <WriteComment/>
