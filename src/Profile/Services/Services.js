@@ -7,7 +7,7 @@ class Services extends Component {
             <div className="Services">
                 <table className='ServicesTable'>
                     <tbody>
-                        <tr>
+                        <tr className='ServicesTableFirstTr'>
                             <td/>
                             <td>Услуги</td>
                         </tr>
@@ -23,7 +23,7 @@ class Services extends Component {
                             <td>Отели</td>
                             <td>1</td>
                         </tr>
-                        <tr>
+                        <tr className='ServicesTableLastTr'>
                             <td>Всего</td>
                             <td>15</td>
                         </tr>
