@@ -11,15 +11,15 @@ class Services extends Component {
                             <td/>
                             <td>Услуги</td>
                         </tr>
-                        <tr>
+                        <tr className='ServicesTableMiddleTr'>
                             <td>Ручное бронирование</td>
                             <td>11</td>
                         </tr>
-                        <tr>
+                        <tr className='ServicesTableMiddleTr'>
                             <td>Пакетные туры</td>
                             <td>3</td>
                         </tr>
-                        <tr>
+                        <tr className='ServicesTableMiddleTr'>
                             <td>Отели</td>
                             <td>1</td>
                         </tr>

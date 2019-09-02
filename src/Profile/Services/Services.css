@@ -12,14 +12,25 @@
     font-size: 13px;
 }
 
+.ServicesTableMiddleTr {
+    height: 25px;
+}
+
 .ServicesTable td:last-child {
     font-weight: bold;
+}
+
+.ServicesTableFirstTr {
+    height: 30px;
 }
 
 .ServicesTableFirstTr td {
     font-size: 13px;
     border-bottom: 1px solid black;
     font-weight: normal !important;
+}
+.ServicesTableLastTr {
+    height: 40px;
 }
 
 .ServicesTableLastTr td {
