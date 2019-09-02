@@ -18,6 +18,7 @@
 
 .ServicesTable td:last-child {
     font-weight: bold;
+    text-align: center;
 }
 
 .ServicesTableFirstTr {
@@ -52,8 +53,8 @@
     display: block;
     position: absolute;
     left: 0;
-    top: 10%;
-    height: 80%;
+    top: 5%;
+    height: 90%;
     background-color: darkcyan;
     z-index: -1;
     border-top-right-radius: 3px;
@@ -73,4 +74,8 @@
 #rating_3 {
     background-color: #ace2f8;
     width: 15%;
+}
+
+.ServicesTableTrEmpty {
+    height: 15px;
 }

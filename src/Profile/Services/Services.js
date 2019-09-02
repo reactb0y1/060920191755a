@@ -13,6 +13,10 @@ class Services extends Component {
                         </tr>
                     </thead>
                     <tbody>
+                        <tr className='ServicesTableTrEmpty'>
+                            <td/>
+                            <td/>
+                        </tr>
                         <tr className='ServicesTableMiddleTr'>
                             <td className='ratingContainer'>
                                 <span
@@ -42,6 +46,10 @@ class Services extends Component {
                                 Отели
                             </td>
                             <td>1</td>
+                        </tr>
+                        <tr className='ServicesTableTrEmpty'>
+                            <td/>
+                            <td/>
                         </tr>
                     </tbody>
                     <tfoot>
