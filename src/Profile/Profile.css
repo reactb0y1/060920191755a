@@ -1,0 +1,7 @@
+.Profile {
+    max-width: 720px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
