@@ -26,7 +26,7 @@
 
 .ServicesTableFirstTr td {
     font-size: 13px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(100,100,100,0.5);
     font-weight: normal !important;
 }
 .ServicesTableLastTr {
@@ -34,7 +34,43 @@
 }
 
 .ServicesTableLastTr td {
-    border-top: 1px solid black;
+    border-top: 1px solid rgba(100,100,100,0.5);
     font-size: 16px;
     font-weight: bold;
+}
+
+.ratingContainer {
+    position: relative;
+    text-indent: 8px;
+}
+
+.ServicesTableMiddleTr td:first-child {
+    border-left: 1px solid rgba(100,100,100,0.5);
+}
+
+.rating {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 10%;
+    height: 80%;
+    background-color: darkcyan;
+    z-index: -1;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#rating_1 {
+    background-color: #b1e19b;
+    width: 80%;
+}
+
+#rating_2 {
+    background-color: #ace2f8;
+    width: 20%;
+}
+
+#rating_3 {
+    background-color: #ace2f8;
+    width: 15%;
 }

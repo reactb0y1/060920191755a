@@ -14,15 +14,33 @@ class Services extends Component {
                     </thead>
                     <tbody>
                         <tr className='ServicesTableMiddleTr'>
-                            <td>Ручное бронирование</td>
+                            <td className='ratingContainer'>
+                                <span
+                                    className='rating'
+                                    id='rating_1'
+                                />
+                                Ручное бронирование
+                            </td>
                             <td>11</td>
                         </tr>
                         <tr className='ServicesTableMiddleTr'>
-                            <td>Пакетные туры</td>
+                            <td className='ratingContainer'>
+                                <span
+                                    className='rating'
+                                    id='rating_2'
+                                />
+                                Пакетные туры
+                            </td>
                             <td>3</td>
                         </tr>
                         <tr className='ServicesTableMiddleTr'>
-                            <td>Отели</td>
+                            <td className='ratingContainer'>
+                                <span
+                                    className='rating'
+                                    id='rating_3'
+                                />
+                                Отели
+                            </td>
                             <td>1</td>
                         </tr>
                     </tbody>
