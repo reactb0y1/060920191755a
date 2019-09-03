@@ -147,3 +147,31 @@
     }
 
 }
+
+@media (max-width: 410px) {
+
+    .CommentsContainer, .Profile {
+        width: 300px !important;
+    }
+
+    .ManagerStatusContainer {
+        padding: 5px 0 !important;
+    }
+
+    .ManagerStatus {
+        line-height: 1.2 !important;
+    }
+
+    .ServicesTable {
+        width: calc(100% - 30px) !important;
+    }
+
+    .reviewsLast, .reviewsAll {
+        font-size: 12px !important;
+    }
+
+    .reviewsActive {
+        font-size: 12px !important;
+    }
+
+}
