@@ -4,7 +4,15 @@ import './WriteComment.css'
 class WriteComment extends Component {
     render() {
         return (
-            <div/>
+            <form className="WriteComment">
+
+                <textarea className="WriteCommentTextarea"/>
+
+                <button className="WriteCommentButton">
+                    Написать консультанту
+                </button>
+
+            </form>
         );
     }
 }
