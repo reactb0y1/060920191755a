@@ -1,0 +1,7 @@
+@media (max-width: 720px) {
+
+    .CommentsContainer, .Profile {
+        width: 600px !important;
+    }
+
+}
