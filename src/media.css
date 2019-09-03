@@ -1,0 +1,177 @@
+@media (max-width: 720px) {
+
+    .CommentsContainer, .Profile {
+        width: 600px !important;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .CommentsContainer, .Profile {
+        width: 480px !important;
+    }
+
+    .ManagerPhoto {
+        min-width: 100px !important;
+        min-height: 100px !important;
+        max-width: 100px !important;
+        max-height: 100px !important;
+        margin-top: 12.5px !important;
+    }
+
+    .reviewsAll {
+        margin-left: 20px !important;
+    }
+
+    .reviewsLast, .reviewsAll {
+        font-size: 14px !important;
+    }
+
+    .reviewsActive {
+        font-size: 16px !important;
+    }
+
+    .CommentsHeadInfo {
+        width: 100px !important;
+    }
+
+    .CommentsTextContainer {
+        padding: 15px 0 !important;
+        margin-top: 10px !important;
+    }
+
+    .CommentsText {
+        font-size: 14px !important;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .CommentsContainer, .Profile {
+        width: 360px !important;
+    }
+
+    .Manager, .Comments, .CommentsHead {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .Profile {
+        height: 300px !important;
+        justify-content: start !important;
+    }
+
+    .Manager {
+        height: 100px !important;
+        margin-top: 20px !important;
+    }
+
+    .ManagerPhoto {
+        margin-top: 0 !important;
+    }
+
+    .ManagerStatusContainer {
+        width: calc(100% + 60px) !important;
+        font-size: 11px !important;
+        bottom: 0 !important;
+    }
+
+    .ManagerStatus {
+        padding-left: 60px !important;
+    }
+
+    .Services {
+        height: 100px !important;
+        margin-top: 20px !important;
+    }
+
+    .ServicesTable {
+        width: calc(100% - 90px) !important;
+        font-size: 12px !important;
+    }
+
+    .ServicesTableLastTr, .ServicesTableFirstTr {
+        height: 30px !important;
+    }
+
+    .ServicesTableMiddleTr {
+        height: 20px !important;
+    }
+
+    .ServicesTableLastTr td {
+        font-size: 14px !important;
+    }
+
+    .ServicesTableTrEmpty {
+        height: 5px !important;
+    }
+
+    .CommentsName {
+        font-size: 14px !important;
+    }
+
+    .CommentsDate {
+        font-size: 11px !important;
+    }
+
+    .CommentsTextContainer {
+        padding: 10px 0 !important;
+    }
+
+    .CommentsText {
+        width: calc(100% - 20px) !important;
+        margin-left: 10px !important;
+    }
+
+    .CommentsHeadInfo {
+        width: 80px !important;
+        font-size: 12px !important;
+    }
+
+    .reviewsAll {
+        margin-left: 10px !important;
+    }
+
+    .likesIco, .commentsIco {
+        margin-right: 3px!important;
+    }
+
+    .WriteCommentTextarea {
+        margin-top: 20px !important;
+    }
+
+    .WriteCommentButton {
+        margin: 15px 0 25px 0 !important;
+    }
+
+}
+
+@media (max-width: 410px) {
+
+    .CommentsContainer, .Profile {
+        width: 300px !important;
+    }
+
+    .ManagerStatusContainer {
+        padding: 5px 0 !important;
+    }
+
+    .ManagerStatus {
+        line-height: 1.2 !important;
+    }
+
+    .ServicesTable {
+        width: calc(100% - 30px) !important;
+    }
+
+    .reviewsLast, .reviewsAll {
+        font-size: 12px !important;
+    }
+
+    .reviewsActive {
+        font-size: 12px !important;
+    }
+
+}

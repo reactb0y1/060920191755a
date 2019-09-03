@@ -5,9 +5,7 @@
 }
 
 .reviews {
-    width: 50%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -17,6 +15,10 @@
     color: dodgerblue;
     text-decoration: underline;
     cursor: pointer;
+}
+
+.reviewsAll {
+    margin-left: 40px;
 }
 
 .reviewsActive {
