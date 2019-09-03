@@ -5,3 +5,44 @@
     }
 
 }
+
+@media (max-width: 600px) {
+
+    .CommentsContainer, .Profile {
+        width: 480px !important;
+    }
+
+    .ManagerPhoto {
+        min-width: 100px !important;
+        min-height: 100px !important;
+        max-width: 100px !important;
+        max-height: 100px !important;
+        margin-top: 12.5px !important;
+    }
+
+    .reviewsAll {
+        margin-left: 20px !important;
+    }
+
+    .reviewsLast, .reviewsAll {
+        font-size: 14px !important;
+    }
+
+    .reviewsActive {
+        font-size: 16px !important;
+    }
+
+    .CommentsHeadInfo {
+        width: 100px !important;
+    }
+
+    .CommentsTextContainer {
+        padding: 15px 0 !important;
+        margin-top: 10px !important;
+    }
+
+    .CommentsText {
+        font-size: 14px !important;
+    }
+
+}
