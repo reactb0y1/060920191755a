@@ -1,13 +1,13 @@
 import React, {Component} from 'react'
-import './Comments.css'
-import Comment from './Comment/Comment'
+import './CommentsContainer.css'
+import Comment from './Comments/Comments'
 import CommentsHead from './CommentsHead/CommentsHead'
 import WriteComment from './WriteComment/WriteComment'
 
-class Comments extends Component {
+class CommentsContainer extends Component {
     render() {
         return (
-            <div>
+            <div className='CommentsContainer'>
                 <CommentsHead/>
                 <Comment/>
                 <WriteComment/>
@@ -16,4 +16,4 @@ class Comments extends Component {
     }
 }
 
-export default Comments
+export default CommentsContainer

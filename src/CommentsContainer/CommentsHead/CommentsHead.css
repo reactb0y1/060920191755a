@@ -1,0 +1,61 @@
+.CommentsHead {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviewsLast, .reviewsAll {
+    font-size: 16px;
+    font-weight: normal;
+    color: dodgerblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.reviewsActive {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    cursor: auto;
+}
+
+.CommentsHeadInfo {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.likes, .comments {
+    display: flex;
+    align-items: center;
+}
+
+.likesIco, .commentsIco {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.likesIco {
+    width: 15px;
+    height: 15px;
+    background-image: url(../../res/img/likesIco.png);
+}
+
+.commentsIco {
+    width: 12px;
+    height: 11px;
+    background-image: url(../../res/img/commentsIco.png);
+
+}

@@ -1,0 +1,41 @@
+.Comments {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.CommentsItem {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.CommentsTextContainer {
+    width: 100%;
+    background: #f2fbff;
+    padding: 20px 0;
+    border: 1px solid #cfcfcf;
+    box-shadow: 0 3px 6px -1px #cfcfcf;
+    margin-top: 15px;
+}
+
+.CommentsText {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+}
+
+.CommentsName {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.CommentsDate {
+    color: #c9c9c9;
+    font-size: 12px;
+    margin-left: 10px;
+}
