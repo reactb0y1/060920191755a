@@ -11,9 +11,11 @@ class WriteComment extends Component {
         this.setState({
             valueText: e.target.value
         })
+    }
 
-        this.props.onAddText(e.target.value)
-
+    addComment(e) {
+        e.preventDefault();
+        this.props.onAddText(this.state.valueText)
     }
 
     render() {
@@ -25,7 +27,10 @@ class WriteComment extends Component {
                     onChange={this.setText.bind(this)}
                     className="WriteCommentTextarea"/>
 
-                <button className="WriteCommentButton">
+                <button
+                    className="WriteCommentButton"
+                    onClick={this.addComment.bind(this)}
+                >
                     Написать консультанту
                 </button>
 
