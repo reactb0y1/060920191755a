@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import './Comments.css'
+import {connect} from 'react-redux'
 
 class Comments extends Component {
 
@@ -51,4 +52,6 @@ class Comments extends Component {
     }
 }
 
-export default Comments
+export default connect(
+    null
+)(Comments)

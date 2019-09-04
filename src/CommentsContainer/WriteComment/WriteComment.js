@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import './WriteComment.css'
+import {connect} from 'react-redux'
 
 class WriteComment extends Component {
     render() {
@@ -17,4 +18,8 @@ class WriteComment extends Component {
     }
 }
 
-export default WriteComment
+// export default WriteComment
+export default connect(
+    null,
+    null
+)(WriteComment)
