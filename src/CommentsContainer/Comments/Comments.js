@@ -43,13 +43,35 @@ class Comments extends Component {
 
     }
 
+    setComment() {
+
+        const prevCommentsData = this.state.commentsData;
+
+        const newCommentData = {
+            name: 'username',
+            date: '13 октября 2011',
+            text: this.props.textStore
+        };
+
+        const nextCommentsData = prevCommentsData.push(newCommentData);
+        
+        this.setState({
+            nextCommentsData
+        })
+    }
+
     render() {
-        console.log("---", this.props.textStore);
         return (
             <ul className="Comments">
                 {this.makeList()}
             </ul>
         );
+    }
+
+    componentDidUpdate(prevProps) {
+        if (this.props !== prevProps) {
+            this.setComment()
+        }
     }
 }
 
