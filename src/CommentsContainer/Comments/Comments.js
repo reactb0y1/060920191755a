@@ -44,6 +44,7 @@ class Comments extends Component {
     }
 
     render() {
+        console.log("---", this.props.textStore);
         return (
             <ul className="Comments">
                 {this.makeList()}
@@ -53,5 +54,7 @@ class Comments extends Component {
 }
 
 export default connect(
-    null
+    state => ({
+        textStore: state
+    })
 )(Comments)
