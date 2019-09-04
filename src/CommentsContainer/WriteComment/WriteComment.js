@@ -15,7 +15,11 @@ class WriteComment extends Component {
 
     addComment(e) {
         e.preventDefault();
-        this.props.onAddText(this.state.valueText)
+        this.props.onAddText(this.state.valueText);
+
+        this.setState({
+            valueText: ""
+        })
     }
 
     render() {
