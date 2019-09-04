@@ -22,6 +22,24 @@ class WriteComment extends Component {
         })
     }
 
+    addCommentKey(e) {
+
+        e = e || window.event;
+
+        if (e.ctrlKey) {
+
+            this.props.onAddText(this.state.valueText);
+
+            this.setState({
+                valueText: ""
+            })
+
+        }
+
+        return true;
+
+    }
+
     render() {
         return (
             <form className="WriteComment">
@@ -29,7 +47,9 @@ class WriteComment extends Component {
                 <textarea
                     value={this.state.valueText}
                     onChange={this.setText.bind(this)}
-                    className="WriteCommentTextarea"/>
+                    className="WriteCommentTextarea"
+                    onKeyPress={this.addCommentKey.bind(this)}
+                />
 
                 <button
                     className="WriteCommentButton"
